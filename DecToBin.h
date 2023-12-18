@@ -1,5 +1,6 @@
 #include<stdio.h>
 int DecToBin(int n){
+
     int i =1,j;
    int binno = 0;
    for(j=n;j>0;j=j/2){
@@ -8,12 +9,4 @@ int DecToBin(int n){
     n = n/2;
    }
    printf("Binary No. is %d ",binno);
-}
-int main(){
-    printf("Enter the decimal no.");
-    int n;
-    scanf("%d",&n);
-    DecToBin(n);
-   
-
 }
