@@ -9,5 +9,5 @@ int main(){
     printf("Enter the value of m and n : ");
     scanf("%d %d",&m,&n);
 
-    printf("Reminder is %d : " ,    giveReminder(m,n)  );
+    printf("Reminder is %d : " ,giveReminder(m,n)  );
 }

@@ -8,7 +8,7 @@ int target(int year){
     return 0;
 
     if(year%4==0)  
-    return 1;
+    return 1;  
    
     return 0;
 }

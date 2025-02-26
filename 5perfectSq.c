@@ -10,7 +10,7 @@ int main(){
     printf("ans is %d\n",ans);
     printf("sq is %d\n",sq*sq);
     if(ans == n){
-    printf("perfect Square");
+    printf("perfect Square");  
     }
     else
     printf("not perfect Square"); 
